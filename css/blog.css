@@ -1,0 +1,28 @@
+#blogItems{
+    border-bottom: 2px solid rgb(142, 142, 142);
+}
+#blogItemUl{
+    margin-bottom: 0 !important;
+    /* padding: 0 !important; */
+    display: flex;
+    padding: 0 80px;
+}
+.blogItemLi{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+#active{
+    color: blue;
+    font-weight: bold;
+}
+#main{
+    padding: 20px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    border: 1px solid rgb(154, 153, 153) !important;
+    margin: 5px 0;
+}
